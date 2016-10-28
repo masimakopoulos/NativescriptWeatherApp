@@ -1,0 +1,9 @@
+<StackLayout>
+    <TextField hint="City" keyboardType="text" [(ngModel)]="city"
+  autocorrect="false" autocapitalizationType="true"></TextField>
+    <Label text="Tap the button" class="title"></Label>
+
+    <Button text="TAP" (tap)="onTap()"></Button>
+
+    <Label [text]="message" class="message" textWrap="true"></Label>
+</StackLayout>
